@@ -15,6 +15,9 @@
   margin: 20px;
 }
 @media (max-width: 767px) {
+  .container {
+    padding: 0 10px;
+  }
   .header-top {
     width: 100% !important;
     padding: 10px !important;
@@ -42,9 +45,14 @@
     height: 190px;
   }
 }
+@media (max-width: 400px) {
+  .movie-wrapper .movie-item {
+    width: 35% !important;
+  }
+}
 @media (max-width: 640px) and (max-width: 425px) {
   .movie-wrapper .movie-item {
-    width: 20% !important;
-    margin: 20px !important;
+    width: 20%;
+    margin: 20px;
   }
 }
