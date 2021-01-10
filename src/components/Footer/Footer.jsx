@@ -22,22 +22,13 @@ const Footer = () => {
         <div className="footer-social-container">
           <div className="footer-social">
             <span className="social-icon">
-              <img
-                src={require("./assets/social/facebook-white.svg")}
-                alt="facebook"
-              />
+              <img src="./assets/social/facebook-white.svg" alt="facebook" />
             </span>
             <span className="social-icon">
-              <img
-                src={require("./assets/social/twitter-white.svg")}
-                alt="twitter"
-              />
+              <img src="./assets/social/twitter-white.svg" alt="twitter" />
             </span>
             <span className="social-icon">
-              <img
-                src={require("./assets/social/instagram-white.svg")}
-                alt="instagram"
-              />
+              <img src="./assets/social/instagram-white.svg" alt="instagram" />
             </span>
           </div>
           <div className="footer-store-application">
