@@ -1,0 +1,50 @@
+.seria-item {
+  float: left;
+  width: 13%;
+  height: 235px;
+  margin-right: 10px;
+  margin-bottom: 49px;
+}
+.seria-item-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.loading {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+@media (max-width: 767px) {
+  .header-top {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .b-login {
+    width: 100% !important;
+  }
+  .b-license {
+    width: 100% !important;
+  }
+  .header-bottom {
+    padding: 10px !important;
+  }
+  .movie-wrapper .movie-item {
+    width: 20% !important;
+    margin: 20px !important;
+  }
+  .Footer {
+    padding: 40px 10px !important;
+  }
+}
+@media (max-width: 425px) {
+  .seria-item {
+    width: 30%;
+    height: 190px;
+  }
+}
+@media (max-width: 640px) and (max-width: 425px) {
+  .movie-wrapper .movie-item {
+    width: 20% !important;
+    margin: 20px !important;
+  }
+}

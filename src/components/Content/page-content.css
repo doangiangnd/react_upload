@@ -1,0 +1,32 @@
+.movie-wrapper .movie-item {
+  float: left;
+  width: 12%;
+  margin-right: 20px;
+}
+.wrapper-image img {
+  width: 100%;
+  height: 90px;
+  object-fit: none;
+}
+.movie-wrapper .movie-wrapper-item {
+  width: 100%;
+  background: #1e1e1e;
+  margin-right: 20px;
+  color: #fff;
+  padding: 20px;
+  min-height: 200px;
+  line-height: 3;
+}
+.movie-wrapper-item .title {
+  visibility: hidden;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+.movie-wrapper-item:hover .title {
+  visibility: visible;
+}
+.movie-wrapper {
+  padding-top: 40px;
+}

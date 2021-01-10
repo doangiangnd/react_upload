@@ -1,0 +1,54 @@
+.header-top {
+  background: #007aff;
+  color: #fff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-top {
+  width: 100%;
+  padding: 10px 0;
+}
+.header-r {
+  float: left;
+  width: 25%;
+  line-height: 37px;
+}
+.header-top-l {
+  float: left;
+  width: 75%;
+}
+.b-login {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.b-license {
+  float: left;
+  width: 50%;
+}
+.header-bottom {
+  background: #414141;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.b-logo span {
+  font-size: 32px;
+}
+.header-r a {
+  color: #fff;
+  text-decoration: none;
+}
+.header-r .b-license a {
+  background: #414141;
+  padding: 5px 8px;
+}
+.header-bottom .b-title {
+  font-size: 27px;
+}
+.header-top-l .b-logo span a {
+  color: #fff;
+  text-decoration: none;
+}
