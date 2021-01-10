@@ -40,6 +40,12 @@
   }
 }
 @media (max-width: 425px) {
+  .footer-info-company ul li {
+    float: none !important;
+    border-right: none !important;
+    text-align: left !important;
+    padding: 0 !important;
+  }
   .seria-item {
     width: 30%;
     height: 190px;
